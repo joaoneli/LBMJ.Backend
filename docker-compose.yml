@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  lbmj.api:
+    image: lbmjapi
+    build:
+      context: .
+      dockerfile: LBMJ.Api/Dockerfile
+    environment:
+        -   "5005:80"

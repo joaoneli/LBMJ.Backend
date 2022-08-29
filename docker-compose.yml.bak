@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  vanessapsicologia.api:
+    image: vanessapsicologiaapi
+    build:
+      context: .
+      dockerfile: VanessaPsicologia.Api/Dockerfile
